@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="voice"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:shortcutShortLabel="@string/shortcut_voice"
+        android:shortcutLongLabel="@string/shortcut_voice_long">
+        <intent
+            android:action="com.localai.agent.ACTION_VOICE"
+            android:targetPackage="com.localai.agent"
+            android:targetClass="com.localai.agent.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="chat"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:shortcutShortLabel="@string/shortcut_chat"
+        android:shortcutLongLabel="@string/shortcut_chat_long">
+        <intent
+            android:action="com.localai.agent.ACTION_CHAT"
+            android:targetPackage="com.localai.agent"
+            android:targetClass="com.localai.agent.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="notes"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:shortcutShortLabel="@string/shortcut_notes"
+        android:shortcutLongLabel="@string/shortcut_notes_long">
+        <intent
+            android:action="com.localai.agent.ACTION_NOTES"
+            android:targetPackage="com.localai.agent"
+            android:targetClass="com.localai.agent.MainActivity" />
+    </shortcut>
+</shortcuts>

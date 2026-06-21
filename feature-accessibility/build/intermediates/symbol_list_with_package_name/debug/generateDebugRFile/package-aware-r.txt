@@ -1,0 +1,3 @@
+com.localai.agent.featureaccessibility
+string accessibility_description
+xml accessibility_service_config

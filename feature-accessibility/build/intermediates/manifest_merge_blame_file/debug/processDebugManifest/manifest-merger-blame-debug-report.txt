@@ -1,0 +1,33 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.localai.agent.featureaccessibility" >
+4
+5    <uses-sdk android:minSdkVersion="26" />
+6
+7    <application>
+7-->/Users/mohit/Desktop/Android Agent/feature-accessibility/src/main/AndroidManifest.xml:4:5-16:19
+8        <service
+8-->/Users/mohit/Desktop/Android Agent/feature-accessibility/src/main/AndroidManifest.xml:5:9-15:19
+9            android:name="com.localai.agent.featureaccessibility.service.AgentAccessibilityService"
+9-->/Users/mohit/Desktop/Android Agent/feature-accessibility/src/main/AndroidManifest.xml:6:13-62
+10            android:exported="true"
+10-->/Users/mohit/Desktop/Android Agent/feature-accessibility/src/main/AndroidManifest.xml:7:13-36
+11            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+11-->/Users/mohit/Desktop/Android Agent/feature-accessibility/src/main/AndroidManifest.xml:8:13-79
+12            <intent-filter>
+12-->/Users/mohit/Desktop/Android Agent/feature-accessibility/src/main/AndroidManifest.xml:9:13-11:29
+13                <action android:name="android.accessibilityservice.AccessibilityService" />
+13-->/Users/mohit/Desktop/Android Agent/feature-accessibility/src/main/AndroidManifest.xml:10:17-92
+13-->/Users/mohit/Desktop/Android Agent/feature-accessibility/src/main/AndroidManifest.xml:10:25-89
+14            </intent-filter>
+15
+16            <meta-data
+16-->/Users/mohit/Desktop/Android Agent/feature-accessibility/src/main/AndroidManifest.xml:12:13-14:72
+17                android:name="android.accessibilityservice"
+17-->/Users/mohit/Desktop/Android Agent/feature-accessibility/src/main/AndroidManifest.xml:13:17-60
+18                android:resource="@xml/accessibility_service_config" />
+18-->/Users/mohit/Desktop/Android Agent/feature-accessibility/src/main/AndroidManifest.xml:14:17-69
+19        </service>
+20    </application>
+21
+22</manifest>

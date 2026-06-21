@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Local AI Agent</string>
+    <string name="shortcut_voice">Voice</string>
+    <string name="shortcut_voice_long">Start Voice Assistant</string>
+    <string name="shortcut_chat">Chat</string>
+    <string name="shortcut_chat_long">Open AI Chat</string>
+    <string name="shortcut_notes">Notes</string>
+    <string name="shortcut_notes_long">Open Quick Notes</string>
+</resources>
