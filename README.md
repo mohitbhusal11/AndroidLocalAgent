@@ -10,11 +10,11 @@ An **offline Android assistant** that runs on your phone — no cloud API keys, 
 
 ## Download APK
 
-Install directly on your Android phone (no Play Store needed):
+Install from **GitHub Releases** (shows in the repo sidebar under *Releases*):
 
-| Version | Download |
-|--------|----------|
-| **1.0.0** | [Local-AI-Agent-1.0.0.apk](releases/Local-AI-Agent-1.0.0.apk) |
+**[Download Local AI Agent 1.0.0](https://github.com/mohitbhusal11/AndroidLocalAgent/releases/latest)**
+
+Direct file: [Local-AI-Agent-1.0.0.apk](https://github.com/mohitbhusal11/AndroidLocalAgent/releases/download/v1.0.0/Local-AI-Agent-1.0.0.apk)
 
 1. Download the APK on your phone
 2. Allow **Install from unknown sources** if asked
@@ -36,12 +36,12 @@ Install directly on your Android phone (no Play Store needed):
 ### Clone & run
 
 ```bash
-git clone https://github.com/mohitbhusal11/LocalAIAgent.git
-cd LocalAIAgent
+git clone https://github.com/mohitbhusal11/AndroidLocalAgent.git
+cd AndroidLocalAgent
 ./gradlew :app:assembleDebug
 ```
 
-Or download the pre-built APK from [releases/Local-AI-Agent-1.0.0.apk](releases/Local-AI-Agent-1.0.0.apk) — no build needed.
+Or download the pre-built APK from [GitHub Releases](https://github.com/mohitbhusal11/AndroidLocalAgent/releases/latest) — no build needed.
 
 Install on a connected device:
 
@@ -60,13 +60,22 @@ export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
 
 APK output: `app/build/outputs/apk/debug/app-debug.apk`
 
-Copy a version-named APK into `releases/` for GitHub:
+Copy a version-named APK into `releases/`:
 
 ```bash
 ./gradlew :app:copyApkToReleases
 ```
 
 Creates: `releases/Local-AI-Agent-<version>.apk`
+
+Publish to GitHub Releases (shows in repo sidebar):
+
+```bash
+gh release create v1.0.0 releases/Local-AI-Agent-1.0.0.apk \
+  --repo mohitbhusal11/AndroidLocalAgent \
+  --title "Local AI Agent 1.0.0" \
+  --notes "Release notes here"
+```
 
 ---
 
