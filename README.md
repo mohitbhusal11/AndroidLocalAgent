@@ -8,6 +8,22 @@ An **offline Android assistant** that runs on your phone — no cloud API keys, 
 
 ---
 
+## Download APK
+
+Install directly on your Android phone (no Play Store needed):
+
+| Version | Download |
+|--------|----------|
+| **1.0.0** | [Local-AI-Agent-1.0.0.apk](releases/Local-AI-Agent-1.0.0.apk) |
+
+1. Download the APK on your phone
+2. Allow **Install from unknown sources** if asked
+3. Open the file and tap **Install**
+
+> Debug build for easy sharing. Requires Android 8.0+ (API 26).
+
+---
+
 ## Quick start
 
 ### Requirements
@@ -20,10 +36,12 @@ An **offline Android assistant** that runs on your phone — no cloud API keys, 
 ### Clone & run
 
 ```bash
-git clone <your-repo-url>
-cd "Android Agent"
+git clone https://github.com/mohitbhusal11/LocalAIAgent.git
+cd LocalAIAgent
 ./gradlew :app:assembleDebug
 ```
+
+Or download the pre-built APK from [releases/Local-AI-Agent-1.0.0.apk](releases/Local-AI-Agent-1.0.0.apk) — no build needed.
 
 Install on a connected device:
 
@@ -41,6 +59,14 @@ export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
 ```
 
 APK output: `app/build/outputs/apk/debug/app-debug.apk`
+
+Copy a version-named APK into `releases/` for GitHub:
+
+```bash
+./gradlew :app:copyApkToReleases
+```
+
+Creates: `releases/Local-AI-Agent-<version>.apk`
 
 ---
 

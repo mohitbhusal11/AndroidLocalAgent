@@ -40,6 +40,15 @@ android {
     }
 }
 
+val releaseApkName = "Local-AI-Agent-${android.defaultConfig.versionName}.apk"
+
+tasks.register<Copy>("copyApkToReleases") {
+    dependsOn("assembleDebug")
+    from(layout.buildDirectory.file("outputs/apk/debug/app-debug.apk"))
+    into(rootProject.layout.projectDirectory.dir("releases"))
+    rename { releaseApkName }
+}
+
 dependencies {
     implementation(project(":core"))
     implementation(project(":core-ui"))
