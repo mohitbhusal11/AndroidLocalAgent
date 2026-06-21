@@ -1,0 +1,4 @@
+-keep,allowobfuscation,allowshrinking class com.localai.agent.featurechat.viewmodel.ChatViewModel
+-keep,allowobfuscation,allowshrinking class com.localai.agent.featurechat.viewmodel.ChatViewModel
+-keep,allowobfuscation,allowshrinking class com.localai.agent.featurechat.viewmodel.ConversationsViewModel
+-keep,allowobfuscation,allowshrinking class com.localai.agent.featurechat.viewmodel.ConversationsViewModel

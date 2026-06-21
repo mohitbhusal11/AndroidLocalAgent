@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_on_primary">#FFFFFFFF</color>
+    <color name="widget_primary">#FF1B6EF3</color>
+    <string name="widget_description">Quick access to your AI assistant</string>
+</resources>

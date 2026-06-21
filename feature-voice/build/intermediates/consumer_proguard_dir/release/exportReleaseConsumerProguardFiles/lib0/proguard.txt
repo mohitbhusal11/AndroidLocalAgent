@@ -1,0 +1,2 @@
+-keep,allowobfuscation,allowshrinking class com.localai.agent.featurevoice.viewmodel.VoiceViewModel
+-keep,allowobfuscation,allowshrinking class com.localai.agent.featurevoice.viewmodel.VoiceViewModel

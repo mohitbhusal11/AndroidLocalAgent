@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.localai.agent.featuresettings.viewmodel.SettingsViewModel

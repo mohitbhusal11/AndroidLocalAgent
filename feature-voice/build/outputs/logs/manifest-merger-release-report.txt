@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mohit/Desktop/Android Agent/feature-voice/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13118158746439733327.xml:2:13-83
+INJECTED from /Users/mohit/Desktop/Android Agent/feature-voice/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13118158746439733327.xml:2:13-83
+	package
+		INJECTED from /Users/mohit/Desktop/Android Agent/feature-voice/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13118158746439733327.xml
+	xmlns:android
+		ADDED from /Users/mohit/Desktop/Android Agent/feature-voice/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13118158746439733327.xml:2:23-81
+uses-sdk
+INJECTED from /Users/mohit/Desktop/Android Agent/feature-voice/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13118158746439733327.xml reason: use-sdk injection requested
+INJECTED from /Users/mohit/Desktop/Android Agent/feature-voice/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13118158746439733327.xml
+INJECTED from /Users/mohit/Desktop/Android Agent/feature-voice/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13118158746439733327.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mohit/Desktop/Android Agent/feature-voice/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13118158746439733327.xml
+	android:minSdkVersion
+		INJECTED from /Users/mohit/Desktop/Android Agent/feature-voice/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13118158746439733327.xml

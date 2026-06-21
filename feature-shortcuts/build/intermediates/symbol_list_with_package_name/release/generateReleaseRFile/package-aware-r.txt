@@ -1,0 +1,9 @@
+com.localai.agent.featureshortcuts
+color widget_on_primary
+color widget_primary
+drawable bubble_background
+id bubble_icon
+layout bubble_layout
+layout widget_loading
+string widget_description
+xml assistant_widget_info

@@ -1,0 +1,2 @@
+-keep,allowobfuscation,allowshrinking class com.localai.agent.featureproductivity.viewmodel.ProductivityViewModel
+-keep,allowobfuscation,allowshrinking class com.localai.agent.featureproductivity.viewmodel.ProductivityViewModel
